@@ -19,7 +19,6 @@ public class Reserva {
     private String codcli;
     @NotBlank(message = "La matricula está vacia.")
     @NotNull(message = "La matricula es nula.")
-
     private String matricula;
 
     public Reserva() {
